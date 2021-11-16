@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:id="@+id/text_View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Name"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Add The Name" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview2"
+        android:layout_margin="20dp"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview3"
+        android:layout_margin="20dp"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pyrmaidtext"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Pyramid value"
+        android:padding="10dp" />
+
+    <TextView
+        android:padding="15dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview4"
+        android:layout_margin="20dp"
+        android:text="CLEAR TEXT"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+
+</LinearLayout>
